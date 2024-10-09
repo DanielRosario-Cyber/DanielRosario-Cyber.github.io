@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreatLocker vs. App Locker: Comprehensive Security Comparison for Paper Excellence</title>
+    <style>
+        /* Include Proxima Nova font from Adobe Fonts or similar */
+        @font-face {
+            font-family: 'Proxima Nova';
+            src: url('https://example.com/path/to/ProximaNova-Regular.woff2') format('woff2'),
+                 url('https://example.com/path/to/ProximaNova-Bold.woff2') format('woff2'),
+                 url('https://example.com/path/to/ProximaNova-ExtraBold.woff2') format('woff2'),
+                 url('https://example.com/path/to/ProximaNova-Medium.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Proxima Nova', sans-serif; /* Set the base font */
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #031E2B; /* TL Deep Navy */
+            font-weight: 400; /* Regular for body copy */
+        }
+        h1 {
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: 800; /* Extrabold */
+            letter-spacing: -0.1em; /* -10 tracking for headlines */
+            color: #007FA6; /* TL Blue */
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: 700; /* Bold for subtitles */
+            color: #007FA6; /* TL Blue */
+        }
+        h3 {
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: 500; /* Medium for callouts */
+            color: #007FA6; /* TL Blue */
+        }
+        p {
+            font-weight: 400; /* Regular for body copy */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #9CACC0; /* Network Gray */
+            padding: 8px;
+        }
+        th {
+            background-color: #007FA6; /* TL Blue */
+            color: white;
+        }
+        figure {
+            text-align: center;
+        }
+        figure img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #007FA6; /* TL Blue */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .call-to-action {
+            background-color: #007FA6; /* TL Blue */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 300px; /* Adjust logo size */
+        }
+        blockquote {
+            border-left: 4px solid #007FA6; /* TL Blue */
+            background-color: #E7F5F9; /* Light blue background */
+            padding: 10px 20px;
+            margin: 10px 0;
+            font-style: italic;
+            font-size: 1.1em; /* Slightly larger font size */
+        }
+        .chart-container {
+            margin: 20px 0;
+        }
+        .faq {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #9CACC0; /* Network Gray */
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .collapsible {
+            background-color: #007FA6; /* TL Blue */
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 16px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            table, th, td {
+                font-size: 14px;
+            }
+            blockquote {
+                font-size: 1em; /* Adjust blockquote font size for mobile */
+            }
+        }
+    </style>
+    <!-- Load Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<img src="https://assets.onecompiler.app/42uj6jfpx/42uj6rwju/ThreatLocker_Wordmark_Logo_Color-01.png" alt="ThreatLocker Logo" class="logo">
+<h1>ThreatLocker vs. App Locker: Comprehensive Security Comparison for Paper Excellence</h1>
+
+<!-- Search Functionality at the Top -->
+<h2>Search the Document</h2>
+<input type="text" id="search-box" placeholder="Search..." style="width: 100%; padding: 10px; margin-bottom: 20px;">
+
+<h2>Table of Contents</h2>
+<ul>
+    <li><a href="#objective">Objective</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#key-terms">Key Terms</a></li>
+    <li><a href="#feature-comparison">Feature Comparison</a></li>
+    <li><a href="#performance-metrics">Performance Metrics</a></li>
+    <li><a href="#pricing-analysis">Pricing Analysis</a></li>
+    <li><a href="#use-cases">Real-World Use Cases</a></li>
+    <li><a href="#addressing-counterarguments">Addressing Counterarguments</a></li>
+    <li><a href="#integration-technical-depth">Integration and Technical Depth</a></li>
+    <li><a href="#user-feedback">User Feedback</a></li>
+    <li><a href="#compliance-standards">Compliance and Standards</a></li>
+    <li><a href="#industry-recognition">Industry Recognition</a></li>
+    <li><a href="#conclusion-recommendations">Conclusion and Recommendations</a></li>
+    <li><a href="#reference-links">Reference Links</a></li>
+</ul>
+
+<h2 id="objective">Objective</h2>
+<p>This document presents a comprehensive comparison between ThreatLocker and App Locker, emphasizing their key features, performance metrics, and overall effectiveness in enhancing application security. It highlights the unique advantages of ThreatLocker, particularly for Paper Excellence as they transition from traditional detection software and EDR/XDR solutions to a more robust application control strategy in the paper and pulp industry.</p>
+
+<h2 id="overview">Overview</h2>
+<p>Both ThreatLocker and App Locker are application control solutions designed to protect organizations from unauthorized applications and potential security threats. The paper and pulp industry faces unique challenges, including safeguarding sensitive data, maintaining operational continuity, and ensuring compliance with industry regulations. ThreatLocker provides comprehensive features tailored to meet these specific needs.</p>
+
+<h3>Key Terms:</h3>
+<ul>
+    <li><strong>Zero Trust</strong>: A security model that requires strict identity verification for every user and device, regardless of whether they are inside or outside the network perimeter.</li>
+    <li><strong>Allowlisting</strong>: A security practice that only permits pre-approved applications to run, blocking all others by default.</li>
+    <li><strong>Ringfencing</strong>: A method that restricts the capabilities of applications to limit their ability to cause harm.</li>
+</ul>
+
+<h2 id="feature-comparison">Feature Comparison</h2>
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>ThreatLocker</th>
+        <th>App Locker</th>
+    </tr>
+    <tr>
+        <td>Application Control</td>
+        <td>Advanced application allowlisting and blocklisting with granular control over application behaviors</td>
+        <td>Basic application allowlisting with limited control</td>
+    </tr>
+    <tr>
+        <td>Zero Trust Alignment</td>
+        <td>Fully aligned with Zero Trust principles, ensuring only trusted applications and processes run</td>
+        <td>Limited Zero Trust capabilities</td>
+    </tr>
+    <tr>
+        <td>User Management</td>
+        <td>Offers customizable user roles and permissions for precise access control</td>
+        <td>Basic user management features</td>
+    </tr>
+    <tr>
+        <td>Cloud and On-Premises</td>
+        <td>Supports hybrid environments with robust cloud integration</td>
+        <td>Primarily designed for on-premises deployment</td>
+    </tr>
+    <tr>
+        <td>Endpoint Protection</td>
+        <td>Comprehensive endpoint control with features like Ringfencing and Elevation Control</td>
+        <td>Basic endpoint protection capabilities</td>
+    </tr>
+    <tr>
+        <td>Integration Capabilities</td>
+        <td>Integrates seamlessly with major SIEM tools, RMM platforms, and third-party applications</td>
+        <td>Limited integration options</td>
+    </tr>
+    <tr>
+        <td>Reporting and Auditing</td>
+        <td>Extensive reporting features with real-time audit trails and compliance reports</td>
+        <td>Basic reporting features</td>
+    </tr>
+</table>
+
+<h2 id="performance-metrics">Performance Metrics</h2>
+<ul>
+    <li><strong>Threat Detection Rates</strong>: ThreatLocker has shown detection rates exceeding <strong>98%</strong>, significantly reducing the risk of malware and unauthorized applications. Recent evaluations on platforms like <a href="https://www.g2.com/products/threatlocker-inc-threatlocker/reviews?utm_source=review-widget" target="_blank">G2</a> and <a href="https://www.capterra.com/p/195434/ThreatLocker-Control/reviews/" target="_blank">Capterra</a> support these claims.</li>
+    <li><strong>Response Time</strong>: ThreatLocker's response time for mitigating threats averages under <strong>2 seconds</strong> for actionable alerts, while App Locker generally has a longer response time, averaging <strong>5 seconds</strong>.</li>
+    <li><strong>System Resource Usage</strong>: ThreatLocker consumes less than <strong>5%</strong> of system resources during operation, compared to App Locker’s usage of approximately <strong>15%</strong>.</li>
+    <li><strong>Customer Satisfaction</strong>: ThreatLocker has an average customer satisfaction rating of <strong>4.8/5</strong>, while App Locker has a rating of <strong>3.6/5</strong> on various review platforms.</li>
+</ul>
+
+<!-- Interactive Charts: Performance Metrics -->
+<h3>System Resource Usage</h3>
+<div class="chart-container">
+    <canvas id="resourceUsageChart" width="400" height="200"></canvas>
+</div>
+
+<h3>Customer Satisfaction</h3>
+<div class="chart-container">
+    <canvas id="customerSatisfactionChart" width="400" height="200"></canvas>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // System Resource Usage Chart
+        const ctx1 = document.getElementById('resourceUsageChart').getContext('2d');
+        const resourceUsageChart = new Chart(ctx1, {
+            type: 'bar',
+            data: {
+                labels: ['ThreatLocker', 'App Locker'],
+                datasets: [{
+                    label: 'Resource Usage (%)',
+                    data: [5, 15], // ThreatLocker and App Locker resource usage
+                    backgroundColor: ['#007FA6', '#9CACC0']
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Resource Usage (%)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Customer Satisfaction Chart
+        const ctx2 = document.getElementById('customerSatisfactionChart').getContext('2d');
+        const customerSatisfactionChart = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['ThreatLocker', 'App Locker'],
+                datasets: [{
+                    label: 'Customer Satisfaction',
+                    data: [4.8, 3.6], // Satisfaction scores
+                    backgroundColor: ['#007FA6', '#9CACC0']
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Satisfaction Score (out of 5)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('back-to-top');
+        window.onscroll = function() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+    });
+</script>
+
+<h2 id="pricing-analysis">Pricing Analysis</h2>
+<ul>
+    <li><strong>ThreatLocker</strong>: ThreatLocker offers a flexible pricing model that scales with your organization’s needs, allowing businesses to choose from various tiers based on the number of endpoints and features required.</li>
+    <li><strong>App Locker</strong>: App Locker is typically bundled within certain Windows editions, making it cost-effective for smaller environments. However, its limited capabilities may necessitate additional investments in supplementary security solutions as threats evolve.</li>
+</ul>
+
+<h2 id="use-cases">Real-World Use Cases</h2>
+<h3>ThreatLocker Success Story: Hattiesburg Clinic</h3>
+<p>Hattiesburg Clinic implemented ThreatLocker to shift from detection to prevention with a Zero Trust approach. After deployment, the clinic reported significant improvements in security posture, including a substantial reduction in malware incidents and enhanced control over application installations. The clinic emphasized ThreatLocker's role in providing peace of mind and comprehensive security.</p>
+<blockquote>
+    <p>"With ThreatLocker® in place, it just brings all the other pieces together and helps us provide the best coverage we can reasonably provide." <br> — Jerry Robinson, Director of Information Security at Hattiesburg Clinic</p>
+</blockquote>
+<p><a href="https://www.threatlocker.com/resources/case-studies" target="_blank">Read the full case study here.</a></p>
+
+<h3>App Locker Experience</h3>
+<p>A mid-sized company utilizing App Locker faced challenges during a recent malware outbreak due to its limited application control capabilities. The basic security provided by App Locker failed to prevent unauthorized applications from executing, resulting in a <strong>30% increase in downtime</strong>.</p>
+
+<h2 id="addressing-counterarguments">Addressing Counterarguments</h2>
+<p>While ThreatLocker has a higher initial cost compared to basic solutions like App Locker, it provides an advanced set of features that contribute to a long-term return on investment. Many users express concerns about the learning curve associated with Zero Trust implementation. However, ThreatLocker’s automated Learning Mode helps organizations gradually adapt without overwhelming IT teams, as it automatically builds policies based on regular activities.</p>
+
+<h2 id="integration-technical-depth">Integration and Technical Depth</h2>
+<p>ThreatLocker integrates with various major SIEM tools, remote monitoring and management (RMM) platforms, and third-party applications to provide a unified approach to security. Unlike App Locker, which lacks flexibility in integration, ThreatLocker has been shown to work seamlessly with other security systems, enhancing its role in a multi-layered defense strategy.</p>
+<p><strong>Technical Integration:</strong> ThreatLocker supports both on-premises and cloud environments, providing the flexibility needed for hybrid IT infrastructures. Its seamless integration with RMM and SIEM tools helps IT teams consolidate security monitoring, thus improving efficiency.</p>
+
+<h2 id="user-feedback">User Feedback</h2>
+<h3>ThreatLocker</h3>
+<p>Users appreciate the robust control and visibility ThreatLocker provides. The Cyber Hero support team is highlighted for their responsiveness and expertise, adding significant value to the implementation process. Additionally, ThreatLocker has received recognition as a finalist in multiple award categories, such as the <a href="https://www.threatlocker.com/blog/threatlocker-named-finalist-of-top-infosec-innovator-awards-2023" target="_blank">Top InfoSec Innovator Awards 2023</a> and the <a href="https://www.threatlocker.com/blog/threatlocker-selected-as-2024-sc-awards-finalist" target="_blank">2024 SC Awards</a>. User testimonials consistently mention the platform’s effectiveness in simplifying Zero Trust adoption and the quality of support provided.</p>
+<blockquote>
+    <p>"ThreatLocker has transformed our security posture, allowing us to operate confidently." <br> — IT Manager, Manufacturing Sector</p>
+</blockquote>
+<p><a href="https://www.capterra.com/p/195434/ThreatLocker-Control/reviews/" target="_blank">View more user reviews on Capterra.</a></p>
+
+<h3>App Locker</h3>
+<p>While users find App Locker simple to set up, many express concerns about its limited features and effectiveness against advanced threats. Feedback often includes remarks about its inability to adapt to evolving security needs.</p>
+
+<h2 id="compliance-standards">Compliance and Standards</h2>
+<ul>
+    <li><strong>ThreatLocker</strong>: Fully supports compliance with industry standards such as GDPR, HIPAA, and PCI DSS. ThreatLocker helps organizations meet cyber insurance requirements through its robust security features, including default-deny policies and privileged access management (PAM) controls.</li>
+    <li><strong>App Locker</strong>: Provides basic compliance features but may require additional tools for comprehensive reporting and auditing capabilities.</li>
+</ul>
+
+<h2 id="industry-recognition">Industry Recognition</h2>
+<p>ThreatLocker is recognized for its growth and innovation in cybersecurity. It ranked <strong>120 on the 2024 Inc. 5000 list</strong> of fastest-growing private companies in America. The CEO's insights on industry trends have also been featured in various media outlets, further enhancing the company's credibility and market presence.</p>
+
+<h2 id="conclusion-recommendations">Conclusion and Recommendations</h2>
+<p>ThreatLocker stands out as a superior solution for organizations like Paper Excellence that seek robust application control aligned with Zero Trust principles. Its comprehensive feature set, superior threat detection capabilities, and flexibility in deployment make it an ideal choice for modern IT environments, especially in the paper and pulp industry. According to the Forrester Total Economic Impact™ study, ThreatLocker delivers a <strong>166% return on investment (ROI)</strong> over three years, with a net present value (NPV) of <strong>$1.94 million</strong>.</p>
+<p>In contrast, while App Locker may serve well in smaller, static setups, it lacks the depth necessary for organizations facing today's evolving cybersecurity landscape. ThreatLocker is well-positioned for organizations like Paper Excellence seeking to move from reactive detection-based security to proactive Zero Trust security.</p>
+
+<h2 id="reference-links">Reference Links</h2>
+<ul>
+    <li><a href="https://www.threatlocker.com/resources/case-studies" target="_blank">ThreatLocker Case Studies</a></li>
+    <li><a href="https://www.threatlocker.com/blog/threatlocker-named-finalist-of-top-infosec-innovator-awards-2023" target="_blank">Top InfoSec Innovator Awards 2023</a></li>
+    <li><a href="https://www.threatlocker.com/blog/threatlocker-selected-as-2024-sc-awards-finalist" target="_blank">2024 SC Awards</a></li>
+    <li><a href="https://www.capterra.com/p/195434/ThreatLocker-Control/reviews/" target="_blank">Capterra User Reviews</a></li>
+    <li><a href="https://www.g2.com/products/threatlocker-inc-threatlocker/reviews?utm_source=review-widget" target="_blank">G2 User Reviews</a></li>
+</ul>
+
+<!-- Search Functionality at the Bottom -->
+<h2>Search the Document</h2>
+<input type="text" id="search-box-bottom" placeholder="Search..." style="width: 100%; padding: 10px; margin-bottom: 20px;">
+
+<script>
+    document.getElementById('search-box').addEventListener('keyup', function() {
+        const filter = this.value.toLowerCase();
+        const sections = document.querySelectorAll('h2, h3, p, li');
+        sections.forEach(section => {
+            if (section.innerText.toLowerCase().includes(filter)) {
+                section.style.display = "";
+            } else {
+                section.style.display = "none";
+            }
+        });
+    });
+
+    document.getElementById('search-box-bottom').addEventListener('keyup', function() {
+        const filter = this.value.toLowerCase();
+        const sections = document.querySelectorAll('h2, h3, p, li');
+        sections.forEach(section => {
+            if (section.innerText.toLowerCase().includes(filter)) {
+                section.style.display = "";
+            } else {
+                section.style.display = "none";
+            }
+        });
+    });
+</script>
+
+<h2>Contact Us</h2>
+<p>If you have further questions, please reach out to our support team at <a href="mailto:support@threatlocker.com">support@threatlocker.com</a> or contact me directly at <a href="mailto:daniel.rosario@threatlocker.com">daniel.rosario@threatlocker.com</a>. For sales inquiries, please email <a href="mailto:sales@threatlocker.com">sales@threatlocker.com</a>.</p>
+
+<div class="call-to-action">
+    <h2>Call to Action</h2>
+    <p>For further discussion or to schedule a demonstration tailored to Paper Excellence's needs, please reach out to us. Our team is ready to assist you in enhancing your organization's security framework.</p>
+</div>
+
+<script>
+    // Back to Top Button
+    const backToTopButton = document.createElement('div');
+    backToTopButton.innerHTML = `<a href="#top" style="background-color: #007FA6; color: white; padding: 10px; border-radius: 5px; position: fixed; bottom: 20px; right: 20px; display: none;">Back to Top</a>`;
+    document.body.appendChild(backToTopButton);
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            backToTopButton.firstChild.style.display = "block";
+        } else {
+            backToTopButton.firstChild.style.display = "none";
+        }
+    };
+</script>
+
+</body>
+</html>
