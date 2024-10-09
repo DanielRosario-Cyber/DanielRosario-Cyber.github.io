@@ -1,0 +1,105 @@
+/* Include Proxima Nova font from Adobe Fonts or similar */
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('https://example.com/path/to/ProximaNova-Regular.woff2') format('woff2'),
+         url('https://example.com/path/to/ProximaNova-Bold.woff2') format('woff2'),
+         url('https://example.com/path/to/ProximaNova-ExtraBold.woff2') format('woff2'),
+         url('https://example.com/path/to/ProximaNova-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Proxima Nova', sans-serif; /* Set the base font */
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #031E2B; /* TL Deep Navy */
+    font-weight: 400; /* Regular for body copy */
+}
+h1 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 800; /* Extrabold */
+    letter-spacing: -0.1em; /* -10 tracking for headlines */
+    color: #007FA6; /* TL Blue */
+    text-align: center;
+}
+h2 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700; /* Bold for subtitles */
+    color: #007FA6; /* TL Blue */
+}
+h3 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500; /* Medium for callouts */
+    color: #007FA6; /* TL Blue */
+}
+p {
+    font-weight: 400; /* Regular for body copy */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #9CACC0; /* Network Gray */
+    padding: 8px;
+}
+th {
+    background-color: #007FA6; /* TL Blue */
+    color: white;
+}
+figure {
+    text-align: center;
+}
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    color: #007FA6; /* TL Blue */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.call-to-action {
+    background-color: #007FA6; /* TL Blue */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px; /* Adjust logo size */
+}
+blockquote {
+    border-left: 4px solid #007FA6; /* TL Blue */
+    background-color: #E7F5F9; /* Light blue background */
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-style: italic;
+    font-size: 1.1em; /* Slightly larger font size */
+}
+.chart-container {
+    margin: 20px 0;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    table, th, td {
+        font-size: 14px;
+    }
+    blockquote {
+        font-size: 1em; /* Adjust blockquote font size for mobile */
+    }
+}
